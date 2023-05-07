@@ -1,0 +1,23 @@
+/* *{margin: 0;
+padding: 0;}
+
+header, main , footer ,nav , aside , section , article , hgroup{display: block;}
+
+
+form{margin: 0 auto;}
+
+#b1{width: 100px;
+    height: 30px;
+    background-color: #000;} */
+
+label {
+    font-size: large;
+    font-weight: bold;
+}
+
+#Wrapper{
+    height: 100%;
+    width: 600px;
+    margin: 0 auto;
+}
+

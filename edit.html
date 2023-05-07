@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Matrix Form</title>
+    <meta charset="utf-8" />
+   
+   <!-- link to matrix.css -->
+   <link rel="stylesheet" type="text/css" href="css/matrix.css" />
+   <!-- link to matrix.js -->
+  </head>
+  <body>
+    <h1>ESCAPE THE MATRIX</h1>
+    <p>IN ORDER TO ESCAPE THE MATRIX YOU SHOULD BE ABLE TO TYPE YOUR NAME IN THE HEXDICMAL<p>
+    <table>
+      <tr>
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+        <td>d</td>
+        <td>e</td>
+        <td>f</td>
+        <td>g</td>
+        <td>h</td>
+        <td>i</td>
+        <td>j</td>
+        <td>k</td>
+        <td>l</td>
+        <td>m</td>
+        <td>n</td>
+        <td>o</td>
+        <td>p</td>
+        <td>q</td>
+        <td>r</td>
+        <td>s</td>
+        <td>t</td>
+        <td>u</td>
+        <td>v</td>
+        <td>w</td>
+        <td>x</td>
+        <td>y</td>
+        <td>z</td>
+      </tr>
+
+      <tr>
+        <td>61</td>
+        <td>62</td>
+        <td>63</td>
+        <td>64</td>
+        <td>65</td>
+        <td>66</td>
+        <td>67</td>
+        <td>68</td>
+        <td>69</td>
+        <td>6a</td>
+        <td>6b</td>
+        <td>6c</td>
+        <td>6d</td>
+        <td>6e</td>
+        <td>6f</td>
+        <td>70</td>
+        <td>71</td>
+        <td>72</td>
+        <td>73</td>
+        <td>74</td>
+        <td>75</td>
+        <td>76</td>
+        <td>77</td>
+        <td>78</td>
+        <td>79</td>
+        <td>7a</td>
+      </tr>
+    </table>
+
+    <div id="timer">00:00</div>
+    <form id="MatrixForm" action="edit.php" method="get">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="example" required />
+      <label for="email">NameInHex:</label>
+      <input
+        type="text"
+        id="NameInHex"
+        name="NameInHex"
+        placeholder="6578616d706c65"
+        required
+      />
+      <label for="message">Message:</label>
+      <input
+        type="text"
+        id="someMessage"
+        name="asis"
+        placeholder="What ever"
+        required
+      />
+      <input type="submit" value="Send Message" />
+    </form>
+    <canvas id="matrix"></canvas>
+
+    <script src="scripts/matrix.js"></script>
+  </body>
+</html>
